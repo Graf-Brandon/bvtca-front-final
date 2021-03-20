@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="content-container">
+        <h2>Log In</h2>
+    
+        <input [(ngModel)] =  "email" placeholder= "Email"/>
+        <input [(ngModel)] = "password" type="password" placeholder= "Password"/>
+       
+
+
+        <button (click) = "LogIn()">Log In</button>
+
+        <p style="font-weight:bold">First Time? Click <a [routerLink]="'/register'">Here</a> To Register</p>
+
+        <p class="error-message">{{ errorMsg }}</p>
+    
+    </div>
+</div>
+
+

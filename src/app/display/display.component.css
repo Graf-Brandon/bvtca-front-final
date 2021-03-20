@@ -1,0 +1,33 @@
+.container-fluid{
+    padding-top: 10px;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/563b7cb1e4b01306c94ec314/1501693386015-J981ZTYJA59J2CKHRD4F/ke17ZwdGBToddI8pDm48kAaIgXWbmqkz4VYwdBuXA0x7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UUTkyuwl81r2vzTyyNiclzfmLd1HwVVd327uzxnlwUSrY7x6kDsGDMYkQIOJRDvK5g/water-life-crop.jpg?format=2500w');
+    height: 800px; 
+    background-repeat: repeat; 
+    background-size: cover;
+    width: 100%;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+}
+.words{
+    padding: 10px 10px 0px 10px;
+    background-color: rgb(135, 147, 170);
+    border-radius: 15px;
+}
+
+.btn-danger{
+    background-color: lightblue;
+    border: 1px solid navy;
+    padding-left: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+#navbutton{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}

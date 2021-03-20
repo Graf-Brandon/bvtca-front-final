@@ -1,0 +1,21 @@
+<div class= "container-fluid">
+  <h1>Messages</h1><br><hr><br>
+  <button [routerLink]="'/view-emails'" class="btn btn-light" id="navbutton">Inbox</button>
+  <button [routerLink]="'/contacts'" class="btn btn-light" id="navbutton">Contacts</button>
+  <button [routerLink]="'/sent'" class="btn btn-light" id="navbutton">Sent</button>
+  <button [routerLink]="'/trash'" class="btn btn-light" id="navbutton">Trash</button>
+  <button [routerLink]="''" class="btn btn-light" id="navbutton">Logout</button><br><br>
+  
+    <div>
+ <div class = "words">
+      <strong>From:</strong> {{ singleMessage.sent }}<br>
+      <strong>To:</strong> {{ singleMessage.recipient }}<br><br> 
+     <strong>Subject: {{ singleMessage.subject }} </strong><br><br>
+      <strong>Message:</strong> {{ singleMessage.body }}<br><br>
+      <button (click)="deleteMessage(singleMessage.id)" class="btn btn-danger">Delete</button><br><br>
+    </div>
+  </div>
+
+ 
+  
+</div>
